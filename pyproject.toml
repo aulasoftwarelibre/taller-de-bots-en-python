@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "plantilla-talleres"
+name = "taller-de-bots-en-python"
 version = "1.0.0"
-description = "Plantilla de talleres"
+description = "Crea tus propios bots con Python "
 authors = ["Aula de Software Libre <aulasoftwarelibre@uco.es>"]
 license = "CC BY-NC 4.0"
 

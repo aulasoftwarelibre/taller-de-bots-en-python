@@ -1,4 +1,4 @@
-# Crea tus propios bots con Python 
+# InstagramBot
 
 <figure markdown>
   ![Aula Software Libre de la UCO](images/logo-cuadrado.svg#only-light)

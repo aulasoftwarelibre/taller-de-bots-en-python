@@ -1,5 +1,4 @@
-# Crea tus propios bots con Python 
-
+# Introducción
 <figure markdown>
   ![Aula Software Libre de la UCO](images/logo-cuadrado.svg#only-light)
   ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg#only-dark)
