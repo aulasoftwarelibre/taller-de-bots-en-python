@@ -1,12 +1,31 @@
-# Crea tus propios bots con Python 
+# Inicio
 
 <figure markdown>
   ![Aula Software Libre de la UCO](images/logo-cuadrado.svg#only-light)
   ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg#only-dark)
 </figure>
 
-Esta plantilla se puede usar para documentar los talleres y actividades del [Aula de Software Libre de la
+Este taller forma parte de las actividades del [Aula de Software Libre de la
 Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
+
+El contenido del mismo es en parte de producción propia, en parte de otros
+manuales libres que pueden encontrarse en la sección de [Referencias](/referencias).
+
+## Contenido
+
+- [Introducción](Introduccion)
+- [Diseño](Diseño)
+- [Creación](Creación)
+- [Despliegue](Despliegue)
+- [Ejemplos](Ejemplos/MailBot)
+- [Referencias](Referencias)
+
+## Agradecimientos
+
+Este curso ha sido impartido por las siguientes personas:
+
+- [Carlos Rivero](https://github.com/AnonymusRiv)
+- [Marcos Rivera](https://github.com/MarcosRigal)
 
 ## Licencia
 

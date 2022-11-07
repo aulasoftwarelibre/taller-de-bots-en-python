@@ -1,6 +1,6 @@
-site_name: "Plantilla de talleres"
+site_name: "Taller de bots en Python"
 site_author: "Aula de Software Libre <aulasoftwarelibre@uco.es>"
-site_description: "Plantilla para crear documentación de los talleres del aula"
+site_description: "Taller en el que enseñaremos a crear bots en python"
 site_url: "https://github.com/aulasoftwarelibre/plantilla-talleres"
 
 repo_name: "aulasoftwarelibre/plantilla-talleres"

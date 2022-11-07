@@ -1,13 +1,16 @@
 # Despliegue
 
-<figure markdown>
-  ![Aula Software Libre de la UCO](images/logo-cuadrado.svg#only-light)
-  ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg#only-dark)
-</figure>
+Una vez que hemos acabado de diseñar y programar nuestro bot, nos surge la gran pregunta y es donde alojarlo, pues bién, tenemos varias opciones: 
 
-Esta plantilla se puede usar para documentar los talleres y actividades del [Aula de Software Libre de la
-Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
+## ¿Dónde se va a alojar mi bot?
 
-## Licencia
+Existen diversas opciones las principales son:
 
-El material está publicado con licencia [Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
+### Localhost
+![Python Logo](http://www.userlogos.org/files/logos/Brentc/localhost_logo.png)
+
+### RaspberryPi
+![Python Logo](https://piscinadeentropia.es/wp-content/uploads/2021/06/raspberrypi_logo_icon_168030.png)
+
+### Cloud
+![Python Logo](./images/download.png)

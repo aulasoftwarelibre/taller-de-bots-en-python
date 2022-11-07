@@ -1,13 +1,17 @@
 # Creación
 
-<figure markdown>
-  ![Aula Software Libre de la UCO](images/logo-cuadrado.svg#only-light)
-  ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg#only-dark)
-</figure>
+![Python Logo](https://antonioalcala.com/wp-content/uploads/2019/06/programador-web-sevilla.jpg)
 
-Esta plantilla se puede usar para documentar los talleres y actividades del [Aula de Software Libre de la
-Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
+Una vez hemos diseñado nuestro bot y sabemos que y como queremos que haga, llega la hora de empezar a programar. Para ello lo primero que deberemos será configurar nuestro entorno instalando todos los paquetes y dependencias que vayan a ser necesarios para ello lo más recomendable es que configuremos nuestro propio entorno virtual. Existen diversas opciones para hacerlo entre las cuales destacan: 
 
-## Licencia
+## Conda
 
-El material está publicado con licencia [Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
+![Python Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Conda_logo.svg/2560px-Conda_logo.svg.png)
+
+
+## Venv
+
+![Python Logo](images/python-virtual-environments.png)
+
+## Poetry
+![Python Logo](https://avatars.githubusercontent.com/u/48722593?s=200&v=4)
