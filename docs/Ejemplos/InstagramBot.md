@@ -45,14 +45,14 @@ def login():
     return browser
 
 
-def likePosts(session, number_of_likes):
+def savePosts(session, number_of_likes):
 
     print(number_of_likes)
-    postsToLike = session.find_elements(By.CLASS_NAME, "_aamz")
+    postsToSave = session.find_elements(By.CLASS_NAME, "_aamz")
     i = 0
-    for postToLike in postsToLike:
+    for postToSave in postsToSave:
         if i < 4:
-            postToLike.click()
+            postToSave.click()
             i += 1
         else:
             return 0
@@ -60,7 +60,7 @@ def likePosts(session, number_of_likes):
 
 
 session = login()
-number_of_likes = int(input("Number of Likes: "))
+number_of_likes = int(input("Number of post to save: "))
 
-likePosts(session, number_of_likes)
+savePosts(session, number_of_likes)
 ```

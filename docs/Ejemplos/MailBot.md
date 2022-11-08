@@ -7,14 +7,14 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-me = "riveragavilanmarcos@gmail.com"
-you = "i92rigam@uco.es"
+sender_address = ""
+receiver_address = ""
 
 # Create message container - the correct MIME type is multipart/alternative.
 msg = MIMEMultipart('alternative')
-msg['Subject'] = "Recibo Fotos Orla Derecho y ADE"
-msg['From'] = me
-msg['To'] = you
+msg['Subject'] = "Prueba"
+msg['From'] = sender_address
+msg['To'] = receiver_address
 
 font = "{font-family: 'Roboto', sans-serif;}"
 
@@ -37,7 +37,7 @@ html = f"""\
       /></a>
     </div>
     <div style="display: flex; align-items: center; justify-content: center;">
-      <h2>RESUMEN Del Partido</h2>
+      <h2>Prueba del mail</h2>
     </div>
   </body>
 </html>
@@ -54,9 +54,8 @@ try:
     mail = smtplib.SMTP('smtp.gmail.com', 587)
     mail.ehlo()
     mail.starttls()
-    mail.login('moyanofotografia@gmail.com', '')
-    mail.sendmail(me, you, msg.as_string())
-    mail.sendmail(me, "moyanofotografia@gmail.com", msg.as_string())
+    mail.login('jhondoe@gmail.com', '')
+    mail.sendmail(sender_address, receiver_address, msg.as_string())
     mail.quit()
     print("Mail sent")
 except:
@@ -69,6 +68,7 @@ except:
 import smtplib,ssl
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+
 def sendEmail(email):
     sender_address = ""
     receiver_address = email
