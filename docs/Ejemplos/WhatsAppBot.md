@@ -1,13 +1,36 @@
 # WhatsAppBot
 
-<figure markdown>
-  ![Aula Software Libre de la UCO](images/logo-cuadrado.svg#only-light)
-  ![Aula Software Libre de la UCO](images/logo-cuadrado-invertido.svg#only-dark)
-</figure>
+```Python
+import pyautogui
+import webbrowser as web
+from time import sleep
+from datetime import datetime
 
-Esta plantilla se puede usar para documentar los talleres y actividades del [Aula de Software Libre de la
-Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
+"""
+Prueba muy simple de bot
 
-## Licencia
+Envia una cadena de texto de un fichero
+"""
 
-El material está publicado con licencia [Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.es)
+web.open("https://web.whatsapp.com/send?phone=+34653465545")
+sleep(10)
+
+def send_at():
+    now = datetime.now()
+    if hour(now):
+        if min(now):
+            pyautogui.typewrite("Ya es la hora")
+            pyautogui.press("enter")
+
+def hour(now):
+    return now.hour == 10
+
+def min(now):
+    return now.minute == 30
+
+with open("prueba.txt", "r") as file:
+    for line in file:
+        pyautogui.typewrite(line)
+        pyautogui.press("enter")
+        send_at()
+```

@@ -1,8 +1,8 @@
-# ¿Qué es un Bot?
+# Introducción
 
 ![Python Logo](https://www.auronix.com/hubfs/AU_13-calixta-bots.png)
 
-## Introducción
+## ¿Qué es un bot?
 
 Un bot es un programa informático que efectúa automáticamente tareas reiterativas mediante Internet a través de una cadena de comandos o funciones autónomas definidas previamente;
 
