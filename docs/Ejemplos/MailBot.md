@@ -54,7 +54,7 @@ try:
     mail = smtplib.SMTP('smtp.gmail.com', 587)
     mail.ehlo()
     mail.starttls()
-    mail.login('moyanofotografia@gmail.com', 'biqlfxmxkbiicbmp')
+    mail.login('moyanofotografia@gmail.com', '')
     mail.sendmail(me, you, msg.as_string())
     mail.sendmail(me, "moyanofotografia@gmail.com", msg.as_string())
     mail.quit()
