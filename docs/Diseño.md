@@ -24,18 +24,25 @@ En nuestro caso, será un Bot en redes sociales y de envío de correo masivo
 A la hora de definir cómo va a funcionar nuestro bot, debemos de analizar primero, el lenguaje y las herramientas que vamos a utilizar. En nuestro caso, utilizaremos Python por ende debemos buscar que librerías y APIs pueden ayudarnos a desarrollar cada uno nuestros bots.
 
 Para el bot de Correo:
+
 - [smtplib](https://docs.python.org/3/library/smtplib.html?highlight=smtplib#module-smtplib) 
 - [MIMEMultipart](https://docs.python.org/3/library/email.mime.html) 
 - [ssl](https://docs.python.org/3/library/ssl.html?highlight=ssl#module-ssl) 
+
 Para el bot de WhatsApp:
+
 - [Whatsapp-python-client](https://pypi.org/project/whatsapp-python-client/) 
 - [Python-whatsapp](https://pypi.org/project/python-whatsapp/) 
 - [Whatsapp-cli](https://pypi.org/project/whatsapp-cli/) 
+
 Para el bot de Telegram:
+
 - [Bot Payments API](https://core.telegram.org/bots/payments) 
 - [Botfather](https://core.telegram.org/bots) 
 - [Telegram Database Library](https://core.telegram.org/tdlib) 
+
 Para el bot de Instagram:
+
 - [Selenium](https://pypi.org/project/selenium/) 
 - [Instapy](https://pypi.org/project/instapy2/) 
 - [Instagram-python 1.4](https://pypi.org/project/instagram-python/) 
